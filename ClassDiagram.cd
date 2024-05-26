@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Location" Collapsed="true">
+    <Position X="12.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAABABgAGAAAAA=</HashCode>
+      <FileName>Figures.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Point" Collapsed="true">
+    <Position X="12.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgACAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Figures.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMeasure" Collapsed="true">
+    <Position X="10.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figures.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Barrier" Collapsed="true">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <InheritanceLine Type="IMeasure" FixedToPoint="true">
+      <Path>
+        <Point X="11.25" Y="3.312" />
+        <Point X="11.25" Y="5.438" />
+        <Point X="10.75" Y="5.438" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAgAACABAAABAAAAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Figures.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Face" Collapsed="true">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <InheritanceLine Type="IMeasure" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.25" Y="3.312" />
+        <Point X="11.25" Y="5.375" />
+        <Point X="12.75" Y="5.375" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAACCgAAABAABgQAAAEAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Figures.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soda" Collapsed="true">
+    <Position X="7.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Figures.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Plane" Collapsed="true">
+    <Position X="9.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAIAAAAAAAA=</HashCode>
+      <FileName>Figures.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DeadFace" Collapsed="true">
+    <Position X="14.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figures.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SurpriseFace" Collapsed="true">
+    <Position X="12.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figures.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmileFace" Collapsed="true">
+    <Position X="11" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Figures.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CryFace" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAEAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Figures.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
